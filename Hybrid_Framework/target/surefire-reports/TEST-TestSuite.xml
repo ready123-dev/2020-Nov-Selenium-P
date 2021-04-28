@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.854" tests="10" errors="0" skipped="6" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="exec.mainClass" value="com.qtpselenium.hybrid.mail.ZipAndSendMail"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework\target\test-classes;D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework\target\classes;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Om\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Om\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Om\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Om\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Om\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Om\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Om\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Om\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Om\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Om\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Om\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Om\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Om\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Om\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Om\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Om\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Om\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Om\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\Om\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Om\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Om\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Om\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Om\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Om\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Om\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\Om\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\Om\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\Om\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Om\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Om\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Om\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\Om\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Om\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\Om\.m2\repository\net\sf\saxon\saxon\8.7\saxon-8.7.jar;C:\Users\Om\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\Om\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Om\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Om\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Om\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Om\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Om\AppData\Local\Temp\surefire6620795556975228312\surefirebooter3617905672948347989.jar C:\Users\Om\AppData\Local\Temp\surefire6620795556975228312 2021-04-28T12-58-55_608-jvmRun1 surefire975647366255587617tmp surefire_04981478838128203790tmp"/>
+    <property name="surefire.test.class.path" value="D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework\target\test-classes;D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework\target\classes;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Om\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Om\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Om\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Om\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Om\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Om\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Om\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Om\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Om\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Om\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Om\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Om\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Om\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Om\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Om\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Om\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Om\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Om\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Om\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Om\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Om\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\Om\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Om\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Om\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Om\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Om\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Om\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Om\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\Om\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\Om\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\Om\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Om\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Om\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Om\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\Om\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Om\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\Om\.m2\repository\net\sf\saxon\saxon\8.7\saxon-8.7.jar;C:\Users\Om\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\Om\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Om\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Om\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Om\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Om\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Om\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Om"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Om\AppData\Local\Temp\surefire6620795556975228312\surefirebooter3617905672948347989.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="Om"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Om\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Om\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8"/>
+    <property name="user.dir" value="D:\Data\Poornima Selenium\Workspace_Nov\Hybrid_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\bin;D:\Data\Poornima Selenium\Drivers\;D:\Data\Poornima Selenium\Essentials\Maven\apache-maven-3.6.3\bin;C:\Users\Om\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.qtpselenium.hybrid.SuiteA.LoginTest" time="0.041">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qtpselenium.hybrid.SuiteA.LoginTest.loginTest(LoginTest.java:23)
+</failure>
+    <system-out><![CDATA[com.qtpselenium.hybrid.utility.XLS_Reader@183ec003
+Starting LoginTest
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.qtpselenium.hybrid.SuiteA.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.qtpselenium.hybrid.SuiteA.LoginTest" time="0.857">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="afterMethod" classname="com.qtpselenium.hybrid.SuiteA.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.qtpselenium.hybrid.SuiteA.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="CreatePortfolioTest" classname="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest" time="0.008">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest.CreatePortfolioTest(CreatePortfolioTest.java:30)
+</failure>
+    <system-out><![CDATA[com.qtpselenium.hybrid.utility.XLS_Reader@20ca951f
+Starting CreatePortfolioTest
+]]></system-out>
+  </testcase>
+  <testcase name="CreatePortfolioTest" classname="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest" time="0.139">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="afterMethod" classname="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
